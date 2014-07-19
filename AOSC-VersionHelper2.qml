@@ -69,7 +69,7 @@ Window {
             }
 
             Text {
-                id: text1
+                id: desc
                 x: 32
                 y: 148
                 width: 599
@@ -80,9 +80,9 @@ Window {
             }
 
             Text {
-                id: text2
+                id: maint
                 x: 32
-                y: 182
+                y: 188
                 width: 599
                 height: 39
                 text: qsTr("This distribution as you see is AOSC OS3, developed from summer to summer of 2014 - 2015, and will be maintained till the summer of 2016.")
@@ -91,7 +91,7 @@ Window {
             }
 
             Text {
-                id: text3
+                id: ver
                 x: 32
                 y: 241
                 width: 596
@@ -101,7 +101,7 @@ Window {
             }
 
             Text {
-                id: text4
+                id: mindya
                 x: 32
                 y: 260
                 width: 596
@@ -114,13 +114,13 @@ Window {
             }
 
             Text {
-                id: text5
+                id: boringstuff
                 x: 32
                 y: 317
                 width: 596
                 height: 106
                 color: "#7d7d7d"
-                text: qsTr("The registered trademark Linux® is used pursuant to a sublicense from LMI, the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis. This distribution is built up, based on, or linked against various (free and open source) projects, any licence information can be obtained from its original distribution package. AOSC OS is an open source Linux distribution with a different way source code distributing: when not included in autobuild archives, look for upstream source package. The AOSC OS logo, as seen above is the mutual creation of AOSC-Dev, licenced under Apache 2.0 licence, any usage outside of distribution building is prohibited without permission from AOSC-Dev.")
+                text: qsTr("The registered trademark Linux?? is used pursuant to a sublicense from LMI, the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis. This distribution is built up, based on, or linked against various (free and open source) projects, any licence information can be obtained from its original distribution package. AOSC OS is an open source Linux distribution with a different way source code distributing: when not included in autobuild archives, look for upstream source package. The AOSC OS logo, as seen above is the mutual creation of AOSC-Dev, licenced under Apache 2.0 licence, any usage outside of distribution building is prohibited without permission from AOSC-Dev.")
                 wrapMode: Text.WordWrap
                 font.pixelSize: 13
             }
@@ -137,7 +137,7 @@ Window {
                 }
             }
             Image {
-                id: image1
+                id: closebutton
                 x: 604
                 y: 27
                 width: 22
