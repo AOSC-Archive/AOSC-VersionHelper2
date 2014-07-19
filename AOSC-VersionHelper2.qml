@@ -27,7 +27,7 @@ Window {
             Text {
                 id: title
                 x: 140
-                y: 35
+                y: 49
                 width: 240
                 height: 49
                 color: "#7d7d7d"
@@ -38,7 +38,7 @@ Window {
             Text {
                 id: powered
                 x: 140
-                y: 78
+                y: 94
                 width: 260
                 height: 30
                 text: qsTr("Powered by AOSC")
@@ -48,7 +48,7 @@ Window {
             Image {
                 id: logo
                 x: 32
-                y: 21
+                y: 40
                 width: 96
                 height: 96
                 fillMode: Image.Stretch
@@ -71,8 +71,8 @@ Window {
             Text {
                 id: desc
                 x: 32
-                y: 148
-                width: 599
+                y: 161
+                width: 596
                 height: 21
                 text: qsTr("AOSC OS is the Linux Distribution maintained by <b>AOSC-Dev</b>, or  <b>AOSC Development Hub</b>.")
                 wrapMode: Text.WordWrap
@@ -82,8 +82,8 @@ Window {
             Text {
                 id: maint
                 x: 32
-                y: 188
-                width: 599
+                y: 194
+                width: 596
                 height: 39
                 text: qsTr("This distribution as you see is AOSC OS3, developed from summer to summer of 2014 - 2015, and will be maintained till the summer of 2016.")
                 wrapMode: Text.WordWrap
@@ -103,7 +103,7 @@ Window {
             Text {
                 id: mindya
                 x: 32
-                y: 260
+                y: 259
                 width: 596
                 height: 26
                 color: "#bd0000"
@@ -127,8 +127,8 @@ Window {
 
             MouseArea {
                 id: closearea
-                x: 604
-                y: 27
+                x: 595
+                y: 40
                 width: 22
                 height: 22
 
@@ -138,8 +138,8 @@ Window {
             }
             Image {
                 id: closebutton
-                x: 604
-                y: 27
+                x: 595
+                y: 40
                 width: 22
                 height: 22
                 source: "img/Close.png"
