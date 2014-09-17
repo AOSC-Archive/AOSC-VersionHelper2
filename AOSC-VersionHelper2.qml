@@ -96,7 +96,7 @@ Window {
                 y: 241
                 width: 596
                 height: 24
-                text: qsTr("This is the <b>Developer Preview 1</b> release of AOSC OS3, using DPKG.</br>") // TODO: read release from a certain configuration file.
+                text: qsTr("This is the <b>Out-Of-Box Preview</b> of AOSC OS3, using DPKG.</br>") // TODO: read release from a certain configuration file.
                 font.pixelSize: 14
             }
 
