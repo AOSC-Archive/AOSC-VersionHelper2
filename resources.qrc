@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+  <file>qml/AOSC-VersionHelper2.qml</file>
+  <file>img/Logo.png</file>
+  <file>img/Close.png</file>
+</qresource>
+</RCC>

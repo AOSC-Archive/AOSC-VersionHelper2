@@ -54,7 +54,7 @@ Window {
                 fillMode: Image.Stretch
                 asynchronous: true // over-optimization 233
                 smooth: true
-                source: "img/Logo.png"
+                source: "../img/Logo.png"
 
                 NumberAnimation {
                     id: logoRotation
@@ -142,7 +142,7 @@ Window {
                 y: 40
                 width: 22
                 height: 22
-                source: "img/Close.png"
+                source: "../img/Close.png"
             }
         }
     }
