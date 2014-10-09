@@ -1,5 +1,6 @@
 import QtQuick 2.2
 import QtQuick.Window 2.1
+import org.anthonos 1.0
 
 Window {
     visible: true
@@ -9,6 +10,18 @@ Window {
     maximumWidth: 650; maximumHeight: 450
     flags: Qt.FramelessWindowHint
     x: (Screen.width - width) / 2; y: (Screen.height - height) / 2
+
+    AFile {
+        id: afile
+        path: "/etc/aosc-release"
+
+        onError: {
+            console.log("ERROR: fail to open file")
+        }
+        onFinished: {
+            console.log("DEBUG: ", content)
+        }
+    }
 
     MouseArea {
         hoverEnabled: false
