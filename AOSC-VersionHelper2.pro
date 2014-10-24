@@ -11,6 +11,7 @@ QT += qml quick
 !android: !ios: !blackberry: qtHaveModule(widgets): QT += widgets
 TARGET = AOSC-VersionHelper2
 CODECFORSRC = UTF-8
+CONFIG += qtquickcompiler
 
 include(cpp/src.pri)
 
