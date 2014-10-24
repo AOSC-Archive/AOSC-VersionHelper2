@@ -6,6 +6,8 @@ AOSC OS3 Version Helper
 
 ## How to use Qt Quick Compiler
 
+You need to buy a ***commerical*** license!
+
 1. Create a .qrc file, for example ./resources.qrc, for your application and 
 include all the files your project needs, including .qml , .js and qmldir files.
 
