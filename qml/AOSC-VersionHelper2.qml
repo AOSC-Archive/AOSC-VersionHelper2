@@ -109,7 +109,7 @@ Window {
                 y: 241
                 width: 596
                 height: 24
-                text: qsTr("This is the <b>Out-Of-Box Preview</b> of AOSC OS3, using DPKG.</br>") // TODO: read release from a certain configuration file.
+                text: qsTr("This is the <b>Out-Of-Box Preview</b> of AOSC OS3,.</br>") // TODO: read release from a certain configuration file.
                 font.pixelSize: 14
             }
 
@@ -129,11 +129,11 @@ Window {
             Text {
                 id: boringstuff
                 x: 32
-                y: 317
+                y: 305
                 width: 596
                 height: 106
                 color: "#7d7d7d"
-                text: qsTr("The registered trademark Linux?? is used pursuant to a sublicense from LMI, the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis. This distribution is built up, based on, or linked against various (free and open source) projects, any licence information can be obtained from its original distribution package. AOSC OS is an open source Linux distribution with a different way source code distributing: when not included in autobuild archives, look for upstream source package. The AOSC OS logo, as seen above is the mutual creation of AOSC-Dev, licenced under Apache 2.0 licence, any usage outside of distribution building is prohibited without permission from AOSC-Dev.")
+                text: qsTr("The registered trademark Linux is used pursuant to a sublicense from LMI, the exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis. This distribution is built up, based on, or linked against various (free and open source) projects, any licence information can be obtained from its original distribution package. AOSC OS is an open source Linux distribution with a different way source code distributing: when not included in autobuild archives, look for upstream source package. The AOSC OS logo, as seen above is the mutual creation of AOSC-Dev, licenced under Apache 2.0 licence, any usage outside of distribution building is prohibited without permission from AOSC-Dev.")
                 wrapMode: Text.WordWrap
                 font.pixelSize: 13
             }
