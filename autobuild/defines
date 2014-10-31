@@ -1,0 +1,5 @@
+PKGNAME=aosc-versionhelper2
+PKGVER=0+git
+PKGSEC=utils
+PKGDEP="qt-5"
+PKGDES="a simple program to show AOSC OS version"

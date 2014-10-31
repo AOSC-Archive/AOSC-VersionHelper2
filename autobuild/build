@@ -1,0 +1,8 @@
+/usr/lib/qt5/bin/qmake
+make
+
+mkdir -p abdist/usr/bin
+cp -a AOSC-VersionHelper2 abdist/usr/bin/
+
+mkdir -p abdist/usr/share/applications
+cp -v data/*.desktop abdist/usr/share/applications/

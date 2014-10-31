@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=OS Version
+Comment=Version Info of AOSC OS
+Exec=/usr/bin/AOSC-VersionHelper2
+Icon=info
+Terminal=false
+Type=Application
+Categories=System;
+StartupNotify=true
