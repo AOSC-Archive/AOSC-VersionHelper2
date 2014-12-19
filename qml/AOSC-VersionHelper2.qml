@@ -109,7 +109,7 @@ Window {
                 y: 241
                 width: 596
                 height: 24
-                text: qsTr("This is the <b>Out-Of-Box Preview</b> of AOSC OS3,.</br>") // TODO: read release from a certain configuration file.
+                text: qsTr("This is AOSC OS3 <b>Beta</b>.</br>") // TODO: read release from a certain configuration file.
                 font.pixelSize: 14
             }
 
