@@ -1,4 +1,4 @@
-// Copyright (C) 2014 AnthonOS Open Source Community
+// Copyright (C) 2014 - 2015 AnthonOS Open Source Community
 
 #include <iostream>
 
@@ -19,6 +19,7 @@ QString AFile::getPath() const { return m_path; }
 
 void AFile::setPath(const QString & path) 
 {
+    // play with std::cpp ;-)
     std::string content;
 
     if (m_path != path) {

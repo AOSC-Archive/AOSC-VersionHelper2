@@ -28,3 +28,21 @@ CONFIG += qtquickcompiler
 to qmake, for example on the command line or in the build settings of your 
 project in Qt Creator, as additional argument in the qmake build steps.
 
+
+## I18n
+
+```
+lupdate qml/*.qml -ts translations/AOSC-VersionHelper2_zh_CN.ts
+```
+
+```
+lrelease translations/AOSC-VersionHelper2_zh_CN.ts
+```
+
+
+## Build
+
+```
+qmake
+make
+```

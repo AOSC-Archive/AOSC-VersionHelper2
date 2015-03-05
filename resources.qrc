@@ -1,5 +1,6 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource prefix="/">
+  <file>translations/AOSC-VersionHelper2_zh_CN.qm</file>
   <file>qml/AOSC-VersionHelper2.qml</file>
   <file>img/Logo.png</file>
   <file>img/Close.png</file>
